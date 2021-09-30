@@ -8,6 +8,7 @@ public class TutorialScriptsss : MonoBehaviour
     void Start()
     {
         //hihihihihihihi
+        //yoyoyoyoyoyo
     }
 
     // Update is called once per frame
