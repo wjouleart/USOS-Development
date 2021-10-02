@@ -14,6 +14,7 @@ public class J_QuestMenuController : MonoBehaviour
     public GameObject nextButtonPage2;
     public bool UploadSucess;
     public Button UploadButton;
+    
 
 
 
@@ -45,6 +46,7 @@ public class J_QuestMenuController : MonoBehaviour
         {
             UploadButton.enabled = true;
             nextButtonPage2.SetActive(true);
+            
         }
 
     }
