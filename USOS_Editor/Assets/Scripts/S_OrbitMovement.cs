@@ -12,8 +12,9 @@ public class S_OrbitMovement : MonoBehaviour
         // Default Value
         orbitRotation = 0;    
     }
-
-    void Update()
+    
+    
+    void FixedUpdate()
     {
         orbitRotation += 0.1f;
 
