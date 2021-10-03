@@ -20,7 +20,7 @@ public class S_SpeedMeter : MonoBehaviour
         // Orbit Speed -1 will be Min 0 to Max 9
         // Meter Rotation ranged from -60 degrees to 60 degrees
         // Meter Rotation Gap = 120 degrees in total
-        float f_ModifiedOrbitSpeed = S_Gyro.f_OrbitSpeed - 1.0f;
+        float f_ModifiedOrbitSpeed = S_Camera.f_OrbitSpeed - 1.0f;
         f_DotRotation = -60.0f + (f_ModifiedOrbitSpeed * 13.333f);
 
         t_DotTransform.eulerAngles = new Vector3(0, 0, f_DotRotation);
